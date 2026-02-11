@@ -37,7 +37,7 @@
             exitBtn = new Button();
             button3 = new Button();
             NewBtn = new Button();
-            button1 = new Button();
+            CalculateBtn = new Button();
             discountedtxtbox = new TextBox();
             discounttxtbox = new TextBox();
             pricetxtbox = new TextBox();
@@ -155,7 +155,7 @@
             groupBox1.Controls.Add(exitBtn);
             groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(NewBtn);
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(CalculateBtn);
             groupBox1.Controls.Add(discountedtxtbox);
             groupBox1.Controls.Add(discounttxtbox);
             groupBox1.Controls.Add(pricetxtbox);
@@ -249,15 +249,15 @@
             NewBtn.UseVisualStyleBackColor = true;
             NewBtn.Click += button2_Click;
             // 
-            // button1
+            // CalculateBtn
             // 
-            button1.Location = new Point(480, 47);
-            button1.Name = "button1";
-            button1.Size = new Size(91, 23);
-            button1.TabIndex = 10;
-            button1.Text = "CALCULATE";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            CalculateBtn.Location = new Point(480, 47);
+            CalculateBtn.Name = "CalculateBtn";
+            CalculateBtn.Size = new Size(91, 23);
+            CalculateBtn.TabIndex = 10;
+            CalculateBtn.Text = "CALCULATE";
+            CalculateBtn.UseVisualStyleBackColor = true;
+            CalculateBtn.Click += button1_Click;
             // 
             // discountedtxtbox
             // 
@@ -1171,7 +1171,7 @@
         private Button exitBtn;
         private Button button3;
         private Button NewBtn;
-        private Button button1;
+        private Button CalculateBtn;
         private TextBox discountedtxtbox;
         private TextBox discounttxtbox;
         private TextBox pricetxtbox;

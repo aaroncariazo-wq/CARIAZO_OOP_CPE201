@@ -12,6 +12,10 @@ namespace CARIAZO_OOP_CPE201
 {
     public partial class Activity4 : Form
     {
+        private int qty_total = 0;
+        private double discount_totalgiven = 0;
+        private double discounted_total = 0;
+
         public Activity4()
         {
             InitializeComponent();
@@ -226,12 +230,13 @@ namespace CARIAZO_OOP_CPE201
             // codes to accumulate the value of the quantity, discount given and discounted amount from one transaction to another
             qty_total += qty;
             discount_totalgiven += discount_amt;
-            discounted_amt_total += discounted_amt;
+            discounted_total += discounted_amt;
             change = cash_rendered - discounted_amt;
             qty_totaltxtbox.Text = qty_total.ToString("n");
             discount_totaltxtbox.Text = discount_totalgiven.ToString("n");
-            discounted_totaltxtbox.Text = discounted_amt_total.ToString("n");
-            change
+            discounted_totaltxtbox.Text = discounted_total.ToString("n");
+            changetxtbox.Text = change. ToString("n");
+            cashre_renderedtxtbox.Text = cash_rendered.ToString("n");
 
 
         }
