@@ -103,7 +103,7 @@ namespace CARIAZO_OOP_CPE201
 
             foodbRadioBtn.Checked = false;
 
-            pictureBox1.Image = Properties.Resources._21;
+            //pictureBox1.Image = Properties.Resources._21;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             A_cokeCheckBox.Enabled = true;
@@ -136,7 +136,7 @@ namespace CARIAZO_OOP_CPE201
 
             foodbRadioBtn.Checked = false;
 
-            pictureBox1.Image = Properties.Resources._22;
+            //pictureBox1.Image = Properties.Resources._22;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             A_cokeCheckBox.Enabled = false;

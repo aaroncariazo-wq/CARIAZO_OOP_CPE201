@@ -251,6 +251,7 @@ namespace CARIAZO_OOP_CPE201
             discounttxtbox.Clear();
             changetxtbox.Clear();
             cashre_renderedtxtbox.Clear();
+            
 
         }
 

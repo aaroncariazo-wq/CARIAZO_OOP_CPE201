@@ -111,62 +111,63 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(15, 519);
+            label11.Location = new Point(17, 692);
             label11.Name = "label11";
-            label11.Size = new Size(100, 15);
+            label11.Size = new Size(122, 20);
             label11.TabIndex = 159;
             label11.Text = "Income / Cut Off:";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(15, 490);
+            label12.Location = new Point(17, 653);
             label12.Name = "label12";
-            label12.Size = new Size(124, 15);
+            label12.Size = new Size(152, 20);
             label12.TabIndex = 158;
             label12.Text = "No. of hours / Cut off:";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(15, 461);
+            label13.Location = new Point(17, 615);
             label13.Name = "label13";
-            label13.Size = new Size(71, 15);
+            label13.Size = new Size(89, 20);
             label13.TabIndex = 157;
             label13.Text = "Rate / Hour:";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(15, 401);
+            label8.Location = new Point(17, 535);
             label8.Name = "label8";
-            label8.Size = new Size(100, 15);
+            label8.Size = new Size(122, 20);
             label8.TabIndex = 156;
             label8.Text = "Income / Cut Off:";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(15, 372);
+            label9.Location = new Point(17, 496);
             label9.Name = "label9";
-            label9.Size = new Size(124, 15);
+            label9.Size = new Size(152, 20);
             label9.TabIndex = 155;
             label9.Text = "No. of hours / Cut off:";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(15, 343);
+            label10.Location = new Point(17, 457);
             label10.Name = "label10";
-            label10.Size = new Size(71, 15);
+            label10.Size = new Size(89, 20);
             label10.TabIndex = 154;
             label10.Text = "Rate / Hour:";
             // 
             // NewBtn
             // 
-            NewBtn.Location = new Point(540, 669);
+            NewBtn.Location = new Point(617, 892);
+            NewBtn.Margin = new Padding(3, 4, 3, 4);
             NewBtn.Name = "NewBtn";
-            NewBtn.Size = new Size(104, 23);
+            NewBtn.Size = new Size(119, 31);
             NewBtn.TabIndex = 153;
             NewBtn.Text = "NEW";
             NewBtn.UseVisualStyleBackColor = true;
@@ -174,53 +175,60 @@
             // 
             // UpdateBtn
             // 
-            UpdateBtn.Location = new Point(430, 669);
+            UpdateBtn.Location = new Point(491, 892);
+            UpdateBtn.Margin = new Padding(3, 4, 3, 4);
             UpdateBtn.Name = "UpdateBtn";
-            UpdateBtn.Size = new Size(104, 23);
+            UpdateBtn.Size = new Size(119, 31);
             UpdateBtn.TabIndex = 152;
             UpdateBtn.Text = "UPDATE";
             UpdateBtn.UseVisualStyleBackColor = true;
             // 
             // SaveBtn
             // 
-            SaveBtn.Location = new Point(320, 669);
+            SaveBtn.Location = new Point(366, 892);
+            SaveBtn.Margin = new Padding(3, 4, 3, 4);
             SaveBtn.Name = "SaveBtn";
-            SaveBtn.Size = new Size(104, 23);
+            SaveBtn.Size = new Size(119, 31);
             SaveBtn.TabIndex = 151;
             SaveBtn.Text = "SAVE";
             SaveBtn.UseVisualStyleBackColor = true;
             // 
             // NetIncomeBtn
             // 
-            NetIncomeBtn.Location = new Point(210, 669);
+            NetIncomeBtn.Location = new Point(240, 892);
+            NetIncomeBtn.Margin = new Padding(3, 4, 3, 4);
             NetIncomeBtn.Name = "NetIncomeBtn";
-            NetIncomeBtn.Size = new Size(104, 23);
+            NetIncomeBtn.Size = new Size(119, 31);
             NetIncomeBtn.TabIndex = 150;
             NetIncomeBtn.Text = "NET INCOME";
             NetIncomeBtn.UseVisualStyleBackColor = true;
+            NetIncomeBtn.Click += NetIncomeBtn_Click;
             // 
             // GrossIncomeBtn
             // 
-            GrossIncomeBtn.Location = new Point(100, 669);
+            GrossIncomeBtn.Location = new Point(114, 892);
+            GrossIncomeBtn.Margin = new Padding(3, 4, 3, 4);
             GrossIncomeBtn.Name = "GrossIncomeBtn";
-            GrossIncomeBtn.Size = new Size(104, 23);
+            GrossIncomeBtn.Size = new Size(119, 31);
             GrossIncomeBtn.TabIndex = 149;
             GrossIncomeBtn.Text = "GROSS INCOME";
             GrossIncomeBtn.UseVisualStyleBackColor = true;
+            GrossIncomeBtn.Click += GrossIncomeBtn_Click;
             // 
             // TotalDeductionTxtbox
             // 
-            TotalDeductionTxtbox.Location = new Point(540, 630);
+            TotalDeductionTxtbox.Location = new Point(617, 840);
+            TotalDeductionTxtbox.Margin = new Padding(3, 4, 3, 4);
             TotalDeductionTxtbox.Name = "TotalDeductionTxtbox";
-            TotalDeductionTxtbox.Size = new Size(173, 23);
+            TotalDeductionTxtbox.Size = new Size(197, 27);
             TotalDeductionTxtbox.TabIndex = 148;
             // 
             // label39
             // 
             label39.AutoSize = true;
-            label39.Location = new Point(398, 637);
+            label39.Location = new Point(455, 849);
             label39.Name = "label39";
-            label39.Size = new Size(93, 15);
+            label39.Size = new Size(118, 20);
             label39.TabIndex = 147;
             label39.Text = "Total Deduction:";
             // 
@@ -228,105 +236,111 @@
             // 
             label38.AutoSize = true;
             label38.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label38.Location = new Point(395, 612);
+            label38.Location = new Point(451, 816);
             label38.Name = "label38";
-            label38.Size = new Size(143, 15);
+            label38.Size = new Size(181, 20);
             label38.TabIndex = 146;
             label38.Text = "DEDUCTION SUMMARY:";
             // 
             // OtherLoanTxtbox
             // 
-            OtherLoanTxtbox.Location = new Point(540, 574);
+            OtherLoanTxtbox.Location = new Point(617, 765);
+            OtherLoanTxtbox.Margin = new Padding(3, 4, 3, 4);
             OtherLoanTxtbox.Name = "OtherLoanTxtbox";
-            OtherLoanTxtbox.Size = new Size(173, 23);
+            OtherLoanTxtbox.Size = new Size(197, 27);
             OtherLoanTxtbox.TabIndex = 145;
             // 
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(398, 577);
+            label32.Location = new Point(455, 769);
             label32.Name = "label32";
-            label32.Size = new Size(69, 15);
+            label32.Size = new Size(85, 20);
             label32.TabIndex = 144;
             label32.Text = "Other Loan:";
             // 
             // SalaryLoanTxtbox
             // 
-            SalaryLoanTxtbox.Location = new Point(540, 545);
+            SalaryLoanTxtbox.Location = new Point(617, 727);
+            SalaryLoanTxtbox.Margin = new Padding(3, 4, 3, 4);
             SalaryLoanTxtbox.Name = "SalaryLoanTxtbox";
-            SalaryLoanTxtbox.Size = new Size(173, 23);
+            SalaryLoanTxtbox.Size = new Size(197, 27);
             SalaryLoanTxtbox.TabIndex = 143;
             // 
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new Point(398, 548);
+            label33.Location = new Point(455, 731);
             label33.Name = "label33";
-            label33.Size = new Size(70, 15);
+            label33.Size = new Size(88, 20);
             label33.TabIndex = 142;
             label33.Text = "Salary Loan:";
             // 
             // FacultySavingsLoanTxtbox
             // 
-            FacultySavingsLoanTxtbox.Location = new Point(540, 516);
+            FacultySavingsLoanTxtbox.Location = new Point(617, 688);
+            FacultySavingsLoanTxtbox.Margin = new Padding(3, 4, 3, 4);
             FacultySavingsLoanTxtbox.Name = "FacultySavingsLoanTxtbox";
-            FacultySavingsLoanTxtbox.Size = new Size(173, 23);
+            FacultySavingsLoanTxtbox.Size = new Size(197, 27);
             FacultySavingsLoanTxtbox.TabIndex = 141;
             // 
             // label34
             // 
             label34.AutoSize = true;
-            label34.Location = new Point(398, 519);
+            label34.Location = new Point(455, 692);
             label34.Name = "label34";
-            label34.Size = new Size(123, 15);
+            label34.Size = new Size(151, 20);
             label34.TabIndex = 140;
             label34.Text = "Faculty Savings  Loan:";
             // 
             // FacultySavingDepositTxtbox
             // 
-            FacultySavingDepositTxtbox.Location = new Point(540, 487);
+            FacultySavingDepositTxtbox.Location = new Point(617, 649);
+            FacultySavingDepositTxtbox.Margin = new Padding(3, 4, 3, 4);
             FacultySavingDepositTxtbox.Name = "FacultySavingDepositTxtbox";
-            FacultySavingDepositTxtbox.Size = new Size(173, 23);
+            FacultySavingDepositTxtbox.Size = new Size(197, 27);
             FacultySavingDepositTxtbox.TabIndex = 139;
             // 
             // label35
             // 
             label35.AutoSize = true;
-            label35.Location = new Point(398, 490);
+            label35.Location = new Point(455, 653);
             label35.Name = "label35";
-            label35.Size = new Size(129, 15);
+            label35.Size = new Size(161, 20);
             label35.TabIndex = 138;
             label35.Text = "Faculty Saving Deposit:";
             // 
             // PagibigLoanTxtbox
             // 
-            PagibigLoanTxtbox.Location = new Point(540, 458);
+            PagibigLoanTxtbox.Location = new Point(617, 611);
+            PagibigLoanTxtbox.Margin = new Padding(3, 4, 3, 4);
             PagibigLoanTxtbox.Name = "PagibigLoanTxtbox";
-            PagibigLoanTxtbox.Size = new Size(173, 23);
+            PagibigLoanTxtbox.Size = new Size(197, 27);
             PagibigLoanTxtbox.TabIndex = 137;
             // 
             // label36
             // 
             label36.AutoSize = true;
-            label36.Location = new Point(398, 461);
+            label36.Location = new Point(455, 615);
             label36.Name = "label36";
-            label36.Size = new Size(79, 15);
+            label36.Size = new Size(98, 20);
             label36.TabIndex = 136;
             label36.Text = "Pagibig Loan:";
             // 
             // SSSloanTxtbox
             // 
-            SSSloanTxtbox.Location = new Point(540, 429);
+            SSSloanTxtbox.Location = new Point(617, 572);
+            SSSloanTxtbox.Margin = new Padding(3, 4, 3, 4);
             SSSloanTxtbox.Name = "SSSloanTxtbox";
-            SSSloanTxtbox.Size = new Size(173, 23);
+            SSSloanTxtbox.Size = new Size(197, 27);
             SSSloanTxtbox.TabIndex = 135;
             // 
             // label37
             // 
             label37.AutoSize = true;
-            label37.Location = new Point(398, 432);
+            label37.Location = new Point(455, 576);
             label37.Name = "label37";
-            label37.Size = new Size(57, 15);
+            label37.Size = new Size(72, 20);
             label37.TabIndex = 134;
             label37.Text = "SSS Loan:";
             // 
@@ -334,73 +348,77 @@
             // 
             label31.AutoSize = true;
             label31.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label31.Location = new Point(398, 403);
+            label31.Location = new Point(455, 537);
             label31.Name = "label31";
-            label31.Size = new Size(128, 15);
+            label31.Size = new Size(160, 20);
             label31.TabIndex = 133;
             label31.Text = "OTHER DEDUCTIONS:";
             // 
             // IncomeTaxContributionTxtbox
             // 
-            IncomeTaxContributionTxtbox.Location = new Point(540, 366);
+            IncomeTaxContributionTxtbox.Location = new Point(617, 488);
+            IncomeTaxContributionTxtbox.Margin = new Padding(3, 4, 3, 4);
             IncomeTaxContributionTxtbox.Name = "IncomeTaxContributionTxtbox";
-            IncomeTaxContributionTxtbox.Size = new Size(173, 23);
+            IncomeTaxContributionTxtbox.Size = new Size(197, 27);
             IncomeTaxContributionTxtbox.TabIndex = 132;
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(398, 369);
+            label27.Location = new Point(455, 492);
             label27.Name = "label27";
-            label27.Size = new Size(141, 15);
+            label27.Size = new Size(173, 20);
             label27.TabIndex = 131;
             label27.Text = "Income Tax Contribution:";
             // 
             // PagibigContributionTxtbox
             // 
-            PagibigContributionTxtbox.Location = new Point(540, 337);
+            PagibigContributionTxtbox.Location = new Point(617, 449);
+            PagibigContributionTxtbox.Margin = new Padding(3, 4, 3, 4);
             PagibigContributionTxtbox.Name = "PagibigContributionTxtbox";
-            PagibigContributionTxtbox.Size = new Size(173, 23);
+            PagibigContributionTxtbox.Size = new Size(197, 27);
             PagibigContributionTxtbox.TabIndex = 130;
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(398, 340);
+            label28.Location = new Point(455, 453);
             label28.Name = "label28";
-            label28.Size = new Size(121, 15);
+            label28.Size = new Size(149, 20);
             label28.TabIndex = 129;
             label28.Text = "Pagibig Contribution:";
             // 
             // PhilHealthContributionTxtbox
             // 
-            PhilHealthContributionTxtbox.Location = new Point(540, 308);
+            PhilHealthContributionTxtbox.Location = new Point(617, 411);
+            PhilHealthContributionTxtbox.Margin = new Padding(3, 4, 3, 4);
             PhilHealthContributionTxtbox.Name = "PhilHealthContributionTxtbox";
-            PhilHealthContributionTxtbox.Size = new Size(173, 23);
+            PhilHealthContributionTxtbox.Size = new Size(197, 27);
             PhilHealthContributionTxtbox.TabIndex = 128;
             // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(398, 311);
+            label29.Location = new Point(455, 415);
             label29.Name = "label29";
-            label29.Size = new Size(136, 15);
+            label29.Size = new Size(167, 20);
             label29.TabIndex = 127;
             label29.Text = "PhilHealth Contribution:";
             // 
             // SSScontributionTxtbox
             // 
-            SSScontributionTxtbox.Location = new Point(540, 279);
+            SSScontributionTxtbox.Location = new Point(617, 372);
+            SSScontributionTxtbox.Margin = new Padding(3, 4, 3, 4);
             SSScontributionTxtbox.Name = "SSScontributionTxtbox";
-            SSScontributionTxtbox.Size = new Size(173, 23);
+            SSScontributionTxtbox.Size = new Size(197, 27);
             SSScontributionTxtbox.TabIndex = 126;
             // 
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(398, 282);
+            label30.Location = new Point(455, 376);
             label30.Name = "label30";
-            label30.Size = new Size(99, 15);
+            label30.Size = new Size(123, 20);
             label30.TabIndex = 125;
             label30.Text = "SSS Contribution:";
             // 
@@ -408,171 +426,181 @@
             // 
             label26.AutoSize = true;
             label26.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label26.Location = new Point(398, 248);
+            label26.Location = new Point(455, 331);
             label26.Name = "label26";
-            label26.Size = new Size(143, 15);
+            label26.Size = new Size(181, 20);
             label26.TabIndex = 124;
             label26.Text = "REGULAR DEDUCTIONS:";
             // 
             // DesignationTxtbox
             // 
-            DesignationTxtbox.Location = new Point(540, 216);
+            DesignationTxtbox.Location = new Point(617, 288);
+            DesignationTxtbox.Margin = new Padding(3, 4, 3, 4);
             DesignationTxtbox.Name = "DesignationTxtbox";
-            DesignationTxtbox.Size = new Size(173, 23);
+            DesignationTxtbox.Size = new Size(197, 27);
             DesignationTxtbox.TabIndex = 123;
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(398, 219);
+            label24.Location = new Point(455, 292);
             label24.Name = "label24";
-            label24.Size = new Size(73, 15);
+            label24.Size = new Size(92, 20);
             label24.TabIndex = 122;
             label24.Text = "Designation:";
             // 
             // EmployeeStatusTxtbox
             // 
-            EmployeeStatusTxtbox.Location = new Point(540, 187);
+            EmployeeStatusTxtbox.Location = new Point(617, 249);
+            EmployeeStatusTxtbox.Margin = new Padding(3, 4, 3, 4);
             EmployeeStatusTxtbox.Name = "EmployeeStatusTxtbox";
-            EmployeeStatusTxtbox.Size = new Size(173, 23);
+            EmployeeStatusTxtbox.Size = new Size(197, 27);
             EmployeeStatusTxtbox.TabIndex = 121;
             // 
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(398, 190);
+            label25.Location = new Point(455, 253);
             label25.Name = "label25";
-            label25.Size = new Size(101, 15);
+            label25.Size = new Size(127, 20);
             label25.TabIndex = 120;
             label25.Text = "Employee Statuts:";
             // 
             // PaydateTxtbox
             // 
-            PaydateTxtbox.Location = new Point(540, 158);
+            PaydateTxtbox.Location = new Point(617, 211);
+            PaydateTxtbox.Margin = new Padding(3, 4, 3, 4);
             PaydateTxtbox.Name = "PaydateTxtbox";
-            PaydateTxtbox.Size = new Size(173, 23);
+            PaydateTxtbox.Size = new Size(197, 27);
             PaydateTxtbox.TabIndex = 119;
             // 
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(398, 161);
+            label21.Location = new Point(455, 215);
             label21.Name = "label21";
-            label21.Size = new Size(52, 15);
+            label21.Size = new Size(64, 20);
             label21.TabIndex = 118;
             label21.Text = "Paydate:";
             // 
             // QualifiedDependentsStatutsTxtbox
             // 
-            QualifiedDependentsStatutsTxtbox.Location = new Point(540, 124);
+            QualifiedDependentsStatutsTxtbox.Location = new Point(617, 165);
+            QualifiedDependentsStatutsTxtbox.Margin = new Padding(3, 4, 3, 4);
             QualifiedDependentsStatutsTxtbox.Name = "QualifiedDependentsStatutsTxtbox";
-            QualifiedDependentsStatutsTxtbox.Size = new Size(173, 23);
+            QualifiedDependentsStatutsTxtbox.Size = new Size(197, 27);
             QualifiedDependentsStatutsTxtbox.TabIndex = 117;
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(398, 124);
+            label22.Location = new Point(455, 165);
             label22.Name = "label22";
-            label22.Size = new Size(121, 30);
+            label22.Size = new Size(154, 40);
             label22.TabIndex = 116;
             label22.Text = "Qualified Dependents\r\nStatus:\r\n";
             // 
             // CivilStatusTxtbox
             // 
-            CivilStatusTxtbox.Location = new Point(540, 95);
+            CivilStatusTxtbox.Location = new Point(617, 127);
+            CivilStatusTxtbox.Margin = new Padding(3, 4, 3, 4);
             CivilStatusTxtbox.Name = "CivilStatusTxtbox";
-            CivilStatusTxtbox.Size = new Size(173, 23);
+            CivilStatusTxtbox.Size = new Size(197, 27);
             CivilStatusTxtbox.TabIndex = 115;
             // 
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(398, 98);
+            label23.Location = new Point(455, 131);
             label23.Name = "label23";
-            label23.Size = new Size(68, 15);
+            label23.Size = new Size(84, 20);
             label23.TabIndex = 114;
             label23.Text = "Civil Status:";
             // 
             // SurnameTxtbox
             // 
-            SurnameTxtbox.Location = new Point(540, 66);
+            SurnameTxtbox.Location = new Point(617, 88);
+            SurnameTxtbox.Margin = new Padding(3, 4, 3, 4);
             SurnameTxtbox.Name = "SurnameTxtbox";
-            SurnameTxtbox.Size = new Size(173, 23);
+            SurnameTxtbox.Size = new Size(197, 27);
             SurnameTxtbox.TabIndex = 113;
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(398, 69);
+            label15.Location = new Point(455, 92);
             label15.Name = "label15";
-            label15.Size = new Size(57, 15);
+            label15.Size = new Size(70, 20);
             label15.TabIndex = 112;
             label15.Text = "Surname:";
             // 
             // MiddleNameTxtbox
             // 
-            MiddleNameTxtbox.Location = new Point(540, 37);
+            MiddleNameTxtbox.Location = new Point(617, 49);
+            MiddleNameTxtbox.Margin = new Padding(3, 4, 3, 4);
             MiddleNameTxtbox.Name = "MiddleNameTxtbox";
-            MiddleNameTxtbox.Size = new Size(173, 23);
+            MiddleNameTxtbox.Size = new Size(197, 27);
             MiddleNameTxtbox.TabIndex = 111;
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(398, 40);
+            label19.Location = new Point(455, 53);
             label19.Name = "label19";
-            label19.Size = new Size(82, 15);
+            label19.Size = new Size(103, 20);
             label19.TabIndex = 110;
             label19.Text = "Middle Name:";
             // 
             // FirstNameTxtbox
             // 
-            FirstNameTxtbox.Location = new Point(540, 10);
+            FirstNameTxtbox.Location = new Point(617, 13);
+            FirstNameTxtbox.Margin = new Padding(3, 4, 3, 4);
             FirstNameTxtbox.Name = "FirstNameTxtbox";
-            FirstNameTxtbox.Size = new Size(173, 23);
+            FirstNameTxtbox.Size = new Size(197, 27);
             FirstNameTxtbox.TabIndex = 109;
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(398, 13);
+            label20.Location = new Point(455, 17);
             label20.Name = "label20";
-            label20.Size = new Size(67, 15);
+            label20.Size = new Size(83, 20);
             label20.TabIndex = 108;
             label20.Text = "First Name:";
             // 
             // NetIncomeTxtbox
             // 
-            NetIncomeTxtbox.Location = new Point(141, 606);
+            NetIncomeTxtbox.Location = new Point(195, 812);
+            NetIncomeTxtbox.Margin = new Padding(3, 4, 3, 4);
             NetIncomeTxtbox.Name = "NetIncomeTxtbox";
-            NetIncomeTxtbox.Size = new Size(173, 23);
+            NetIncomeTxtbox.Size = new Size(197, 27);
             NetIncomeTxtbox.TabIndex = 107;
             NetIncomeTxtbox.TextChanged += NetIncomeTxtbox_TextChanged;
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(15, 609);
+            label16.Location = new Point(17, 812);
             label16.Name = "label16";
-            label16.Size = new Size(80, 15);
+            label16.Size = new Size(99, 20);
             label16.TabIndex = 106;
             label16.Text = "NET INCOME:";
             // 
             // GrossIncomeTxtbox
             // 
-            GrossIncomeTxtbox.Location = new Point(141, 577);
+            GrossIncomeTxtbox.Location = new Point(195, 773);
+            GrossIncomeTxtbox.Margin = new Padding(3, 4, 3, 4);
             GrossIncomeTxtbox.Name = "GrossIncomeTxtbox";
-            GrossIncomeTxtbox.Size = new Size(173, 23);
+            GrossIncomeTxtbox.Size = new Size(197, 27);
             GrossIncomeTxtbox.TabIndex = 105;
             GrossIncomeTxtbox.TextChanged += GrossIncomeTxtbox_TextChanged;
             // 
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(15, 580);
+            label17.Location = new Point(17, 773);
             label17.Name = "label17";
-            label17.Size = new Size(95, 15);
+            label17.Size = new Size(118, 20);
             label17.TabIndex = 104;
             label17.Text = "GROSS INCOME:";
             // 
@@ -580,122 +608,131 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(15, 550);
+            label18.Location = new Point(17, 733);
             label18.Name = "label18";
-            label18.Size = new Size(120, 15);
+            label18.Size = new Size(153, 20);
             label18.TabIndex = 103;
             label18.Text = "SUMMARY INCOME:";
             // 
             // oIncomeIncomeTxtbox
             // 
-            oIncomeIncomeTxtbox.Location = new Point(141, 516);
+            oIncomeIncomeTxtbox.Location = new Point(195, 692);
+            oIncomeIncomeTxtbox.Margin = new Padding(3, 4, 3, 4);
             oIncomeIncomeTxtbox.Name = "oIncomeIncomeTxtbox";
-            oIncomeIncomeTxtbox.Size = new Size(173, 23);
+            oIncomeIncomeTxtbox.Size = new Size(197, 27);
             oIncomeIncomeTxtbox.TabIndex = 102;
             oIncomeIncomeTxtbox.TextChanged += oIncomeIncomeTxtbox_TextChanged;
             // 
             // oIncomeNoOfHoursTxtbox
             // 
-            oIncomeNoOfHoursTxtbox.Location = new Point(141, 487);
+            oIncomeNoOfHoursTxtbox.Location = new Point(195, 653);
+            oIncomeNoOfHoursTxtbox.Margin = new Padding(3, 4, 3, 4);
             oIncomeNoOfHoursTxtbox.Name = "oIncomeNoOfHoursTxtbox";
-            oIncomeNoOfHoursTxtbox.Size = new Size(173, 23);
+            oIncomeNoOfHoursTxtbox.Size = new Size(197, 27);
             oIncomeNoOfHoursTxtbox.TabIndex = 101;
             // 
             // oIncomeRateTxtbox
             // 
-            oIncomeRateTxtbox.Location = new Point(141, 458);
+            oIncomeRateTxtbox.Location = new Point(195, 615);
+            oIncomeRateTxtbox.Margin = new Padding(3, 4, 3, 4);
             oIncomeRateTxtbox.Name = "oIncomeRateTxtbox";
-            oIncomeRateTxtbox.Size = new Size(173, 23);
+            oIncomeRateTxtbox.Size = new Size(197, 27);
             oIncomeRateTxtbox.TabIndex = 100;
             // 
             // label14
             // 
             label14.AutoSize = true;
             label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.Location = new Point(15, 431);
+            label14.Location = new Point(17, 575);
             label14.Name = "label14";
-            label14.Size = new Size(98, 15);
+            label14.Size = new Size(124, 20);
             label14.TabIndex = 99;
             label14.Text = "OTHER INCOME:";
             // 
             // hIncomeIncomeTxtbox
             // 
-            hIncomeIncomeTxtbox.Location = new Point(141, 398);
+            hIncomeIncomeTxtbox.Location = new Point(195, 535);
+            hIncomeIncomeTxtbox.Margin = new Padding(3, 4, 3, 4);
             hIncomeIncomeTxtbox.Name = "hIncomeIncomeTxtbox";
-            hIncomeIncomeTxtbox.Size = new Size(173, 23);
+            hIncomeIncomeTxtbox.Size = new Size(197, 27);
             hIncomeIncomeTxtbox.TabIndex = 98;
             hIncomeIncomeTxtbox.TextChanged += hIncomeIncomeTxtbox_TextChanged;
             // 
             // hIncomeNoOfHoursTxtbox
             // 
-            hIncomeNoOfHoursTxtbox.Location = new Point(141, 369);
+            hIncomeNoOfHoursTxtbox.Location = new Point(195, 496);
+            hIncomeNoOfHoursTxtbox.Margin = new Padding(3, 4, 3, 4);
             hIncomeNoOfHoursTxtbox.Name = "hIncomeNoOfHoursTxtbox";
-            hIncomeNoOfHoursTxtbox.Size = new Size(173, 23);
+            hIncomeNoOfHoursTxtbox.Size = new Size(197, 27);
             hIncomeNoOfHoursTxtbox.TabIndex = 97;
             // 
             // hIncomeRateTxtbox
             // 
-            hIncomeRateTxtbox.Location = new Point(141, 340);
+            hIncomeRateTxtbox.Location = new Point(195, 457);
+            hIncomeRateTxtbox.Margin = new Padding(3, 4, 3, 4);
             hIncomeRateTxtbox.Name = "hIncomeRateTxtbox";
-            hIncomeRateTxtbox.Size = new Size(173, 23);
+            hIncomeRateTxtbox.Size = new Size(197, 27);
             hIncomeRateTxtbox.TabIndex = 96;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(15, 313);
+            label7.Location = new Point(17, 417);
             label7.Name = "label7";
-            label7.Size = new Size(143, 15);
+            label7.Size = new Size(182, 20);
             label7.TabIndex = 95;
             label7.Text = "HONORARIUM INCOME:";
             // 
             // bIncomeIncomeTxtbox
             // 
-            bIncomeIncomeTxtbox.Location = new Point(141, 276);
+            bIncomeIncomeTxtbox.Location = new Point(195, 372);
+            bIncomeIncomeTxtbox.Margin = new Padding(3, 4, 3, 4);
             bIncomeIncomeTxtbox.Name = "bIncomeIncomeTxtbox";
-            bIncomeIncomeTxtbox.Size = new Size(173, 23);
+            bIncomeIncomeTxtbox.Size = new Size(197, 27);
             bIncomeIncomeTxtbox.TabIndex = 94;
             bIncomeIncomeTxtbox.TextChanged += bIncomeIncomeTxtbox_TextChanged;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(15, 279);
+            label6.Location = new Point(17, 372);
             label6.Name = "label6";
-            label6.Size = new Size(100, 15);
+            label6.Size = new Size(122, 20);
             label6.TabIndex = 93;
             label6.Text = "Income / Cut Off:";
             // 
             // bIncomeNoOfHoursTxtbox
             // 
-            bIncomeNoOfHoursTxtbox.Location = new Point(141, 247);
+            bIncomeNoOfHoursTxtbox.Location = new Point(195, 333);
+            bIncomeNoOfHoursTxtbox.Margin = new Padding(3, 4, 3, 4);
             bIncomeNoOfHoursTxtbox.Name = "bIncomeNoOfHoursTxtbox";
-            bIncomeNoOfHoursTxtbox.Size = new Size(173, 23);
+            bIncomeNoOfHoursTxtbox.Size = new Size(197, 27);
             bIncomeNoOfHoursTxtbox.TabIndex = 92;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(15, 250);
+            label4.Location = new Point(17, 333);
             label4.Name = "label4";
-            label4.Size = new Size(124, 15);
+            label4.Size = new Size(152, 20);
             label4.TabIndex = 91;
             label4.Text = "No. of hours / Cut off:";
             // 
             // bIncomeRateTxtbox
             // 
-            bIncomeRateTxtbox.Location = new Point(141, 218);
+            bIncomeRateTxtbox.Location = new Point(195, 295);
+            bIncomeRateTxtbox.Margin = new Padding(3, 4, 3, 4);
             bIncomeRateTxtbox.Name = "bIncomeRateTxtbox";
-            bIncomeRateTxtbox.Size = new Size(173, 23);
+            bIncomeRateTxtbox.Size = new Size(197, 27);
             bIncomeRateTxtbox.TabIndex = 90;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 221);
+            label5.Location = new Point(17, 295);
             label5.Name = "label5";
-            label5.Size = new Size(71, 15);
+            label5.Size = new Size(89, 20);
             label5.TabIndex = 89;
             label5.Text = "Rate / Hour:";
             // 
@@ -703,58 +740,62 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(15, 192);
+            label3.Location = new Point(17, 256);
             label3.Name = "label3";
-            label3.Size = new Size(93, 15);
+            label3.Size = new Size(119, 20);
             label3.TabIndex = 88;
             label3.Text = "BASIC INCOME:";
             // 
             // DepartmentTxtbox
             // 
-            DepartmentTxtbox.Location = new Point(141, 152);
+            DepartmentTxtbox.Location = new Point(195, 207);
+            DepartmentTxtbox.Margin = new Padding(3, 4, 3, 4);
             DepartmentTxtbox.Name = "DepartmentTxtbox";
-            DepartmentTxtbox.Size = new Size(173, 23);
+            DepartmentTxtbox.Size = new Size(197, 27);
             DepartmentTxtbox.TabIndex = 87;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(15, 155);
+            label2.Location = new Point(17, 207);
             label2.Name = "label2";
-            label2.Size = new Size(73, 15);
+            label2.Size = new Size(92, 20);
             label2.TabIndex = 86;
             label2.Text = "Department:";
             // 
             // EmployeeNumberTxtbox
             // 
-            EmployeeNumberTxtbox.Location = new Point(141, 123);
+            EmployeeNumberTxtbox.Location = new Point(195, 168);
+            EmployeeNumberTxtbox.Margin = new Padding(3, 4, 3, 4);
             EmployeeNumberTxtbox.Name = "EmployeeNumberTxtbox";
-            EmployeeNumberTxtbox.Size = new Size(173, 23);
+            EmployeeNumberTxtbox.Size = new Size(197, 27);
             EmployeeNumberTxtbox.TabIndex = 85;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(15, 126);
+            label1.Location = new Point(17, 168);
             label1.Name = "label1";
-            label1.Size = new Size(109, 15);
+            label1.Size = new Size(136, 20);
             label1.TabIndex = 84;
             label1.Text = "Employee Number:";
             // 
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(15, 11);
+            pictureBox1.Location = new Point(17, 15);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(144, 98);
+            pictureBox1.Size = new Size(164, 129);
             pictureBox1.TabIndex = 83;
             pictureBox1.TabStop = false;
             // 
             // Activity_Lesson5
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(740, 698);
+            BackColor = SystemColors.ButtonShadow;
+            ClientSize = new Size(846, 931);
             Controls.Add(label11);
             Controls.Add(label12);
             Controls.Add(label13);
@@ -832,6 +873,7 @@
             Controls.Add(EmployeeNumberTxtbox);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Activity_Lesson5";
             Text = "Activity_Lesson5";
             Load += Activity_Lesson5_Load;
