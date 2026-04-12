@@ -11,7 +11,7 @@ namespace CARIAZO_OOP_CPE201
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Example4_Lesson7());
+            Application.Run(new Activity1());
         }
     }
 }

@@ -13,8 +13,8 @@ namespace CARIAZO_OOP_CPE201
 {
     public partial class Activity6 : Form
     {
-        private double total_amount = 0;
-        private int total_qty = 0;
+        //private double total_amount = 0;
+        //private int total_qty = 0;
 
         public Activity6()
         {
@@ -130,7 +130,7 @@ namespace CARIAZO_OOP_CPE201
 
         private void foodbRadioBtn_CheckedChanged(object sender, EventArgs e)
         {
-            double price;
+            //double price;
 
             this.BackColor = Color.LightCyan;
 
