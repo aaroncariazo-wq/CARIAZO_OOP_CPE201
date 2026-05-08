@@ -1013,7 +1013,7 @@ namespace CARIAZO_OOP_CPE201
             // 
             // change_txtbox
             // 
-            change_txtbox.Font = new Font("Segoe UI", 13.8F);
+//            change_txtbox.Font = new Font("Segoe UI", 13.8F);
             change_txtbox.Location = new Point(390, 42);
             change_txtbox.Name = "change_txtbox";
             change_txtbox.Size = new Size(162, 38);
@@ -1022,7 +1022,7 @@ namespace CARIAZO_OOP_CPE201
             // 
             // cash_rendered_txtbox
             // 
-            cash_rendered_txtbox.Font = new Font("Segoe UI", 13.8F);
+//            cash_rendered_txtbox.Font = new Font("Segoe UI", 13.8F);
             cash_rendered_txtbox.Location = new Point(136, 42);
             cash_rendered_txtbox.Name = "cash_rendered_txtbox";
             cash_rendered_txtbox.Size = new Size(162, 38);

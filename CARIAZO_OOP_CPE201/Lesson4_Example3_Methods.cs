@@ -192,7 +192,7 @@ namespace CARIAZO_OOP_CPE201
         {
             // codes for calling the other form connected to the current form
 
-            Activity5_PrintFrm print1 = new Activity5_PrintFrm();
+            //Activity5_PrintFrm print1 = new Activity5_PrintFrm();
 
             //Lesson2_example3_printfrm print = new lesson2_example3_printftm();
 
@@ -201,13 +201,13 @@ namespace CARIAZO_OOP_CPE201
             // modifier = internal
 
 
-            print1.PrintDisplayListbox.Items.AddRange(this.Listbox_Display.Items);
+            //print1.PrintDisplayListbox.Items.AddRange(this.Listbox_Display.Items);
 
 
 
             // codes to remove selected data inside the listbox
             // Listbox_Display.Items.RemoveAt(Listbox_Display.SelectedIndex);
-            print1.ShowDialog();
+            //print1.ShowDialog();
         }
 
         private void Button_Remove_Order_Click(object sender, EventArgs e)

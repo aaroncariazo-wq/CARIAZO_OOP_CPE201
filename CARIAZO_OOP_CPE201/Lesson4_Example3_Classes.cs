@@ -19,8 +19,8 @@ namespace CARIAZO_OOP_CPE201
         private double total_amount = 0;
         private int total_qty = 0;
 
-        Variables variables = new Variables();
-        Price_Item_Values price_value = new Price_Item_Values();
+        Variable variables = new Variable();
+        Price_Item_Value price_discountamount_value = new Price_Item_Value();
 
         public Lesson4_Example3_Classes()
         {
@@ -34,6 +34,12 @@ namespace CARIAZO_OOP_CPE201
             Txtbox_Quantity.Text = "0";
             Txtbox_Quantity.Focus();
         }
+
+        public void item_priceValue(string itemname, string price)
+        {
+            Txtbox_Price.Text = price;
+        }
+
         private void foodradiobtn()
         {
             Radio_Button_A.Checked = false;
@@ -42,8 +48,8 @@ namespace CARIAZO_OOP_CPE201
         }
         private void GetPriceDiscountAmmount()
         {
-            Txtbox_Price.Text = (price_discountammount_value.GetPriceItemPrice()).ToString();
-            Txtbox_Discount_Amount.Text = (price_discountammount_value.GetPriceItemDiscount()).ToString();
+            Txtbox_Price.Text = (price_discountamount_value.GetPriceItem()).ToString();
+            Txtbox_Discount_Amount.Text = (price_discountamount_value.GetDiscountAmount()).ToString();
             variables.price = Convert.ToDouble(Txtbox_Price.Text);
         }
 
@@ -171,7 +177,7 @@ namespace CARIAZO_OOP_CPE201
         {
             // codes for calling the other form connected to the current form
 
-            Activity5_PrintFrm print1 = new Activity5_PrintFrm();
+            //Activity5_PrintFrm print1 = new Activity5_PrintFrm();
 
             //Lesson2_example3_printfrm print = new lesson2_example3_printftm();
 
@@ -180,13 +186,13 @@ namespace CARIAZO_OOP_CPE201
             // modifier = internal
 
 
-            print1.PrintDisplayListbox.Items.AddRange(this.Listbox_Display.Items);
+            //print1.PrintDisplayListbox.Items.AddRange(this.Listbox_Display.Items);
 
 
 
             // codes to remove selected data inside the listbox
             // Listbox_Display.Items.RemoveAt(Listbox_Display.SelectedIndex);
-            print1.ShowDialog();
+            //print1.ShowDialog();
         }
 
         private void Button_Remove_Order_Click(object sender, EventArgs e)
