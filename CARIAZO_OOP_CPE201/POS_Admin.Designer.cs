@@ -128,7 +128,7 @@
             label39 = new Label();
             nameTxtbox16 = new TextBox();
             label40 = new Label();
-            comboBox1 = new ComboBox();
+            pos_id_comboBox = new ComboBox();
             label41 = new Label();
             SearchBtn = new Button();
             SaveBtn = new Button();
@@ -136,7 +136,7 @@
             UpdateBtn = new Button();
             ExitBtn = new Button();
             Newbtn = new Button();
-            dataGridView1 = new DataGridView();
+            datagriddisplay = new DataGridView();
             picpathTxtbox1 = new TextBox();
             picpathTxtbox2 = new TextBox();
             picpathTxtbox3 = new TextBox();
@@ -177,7 +177,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -1000,13 +1000,13 @@
             label40.TabIndex = 80;
             label40.Text = "Name:";
             // 
-            // comboBox1
+            // pos_id_comboBox
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(820, 18);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(166, 23);
-            comboBox1.TabIndex = 100;
+            pos_id_comboBox.FormattingEnabled = true;
+            pos_id_comboBox.Location = new Point(820, 18);
+            pos_id_comboBox.Name = "pos_id_comboBox";
+            pos_id_comboBox.Size = new Size(166, 23);
+            pos_id_comboBox.TabIndex = 100;
             // 
             // label41
             // 
@@ -1034,6 +1034,7 @@
             SaveBtn.TabIndex = 103;
             SaveBtn.Text = "SAVE";
             SaveBtn.UseVisualStyleBackColor = true;
+            SaveBtn.Click += SaveBtn_Click;
             // 
             // DeleteBtn
             // 
@@ -1071,13 +1072,13 @@
             Newbtn.Text = "NEW/CANCEL";
             Newbtn.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // datagriddisplay
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(820, 333);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(166, 300);
-            dataGridView1.TabIndex = 108;
+            datagriddisplay.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            datagriddisplay.Location = new Point(820, 333);
+            datagriddisplay.Name = "datagriddisplay";
+            datagriddisplay.Size = new Size(166, 300);
+            datagriddisplay.TabIndex = 108;
             // 
             // picpathTxtbox1
             // 
@@ -1244,7 +1245,7 @@
             Controls.Add(picpathTxtbox3);
             Controls.Add(picpathTxtbox2);
             Controls.Add(picpathTxtbox1);
-            Controls.Add(dataGridView1);
+            Controls.Add(datagriddisplay);
             Controls.Add(ExitBtn);
             Controls.Add(Newbtn);
             Controls.Add(DeleteBtn);
@@ -1252,7 +1253,7 @@
             Controls.Add(SaveBtn);
             Controls.Add(SearchBtn);
             Controls.Add(label41);
-            Controls.Add(comboBox1);
+            Controls.Add(pos_id_comboBox);
             Controls.Add(priceTxtbox20);
             Controls.Add(label31);
             Controls.Add(nameTxtbox20);
@@ -1376,7 +1377,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1483,7 +1484,7 @@
         private Label label39;
         private TextBox nameTxtbox16;
         private Label label40;
-        private ComboBox comboBox1;
+        private ComboBox pos_id_comboBox;
         private Label label41;
         private Button SearchBtn;
         private Button SaveBtn;
@@ -1491,7 +1492,7 @@
         private Button UpdateBtn;
         private Button ExitBtn;
         private Button Newbtn;
-        private DataGridView dataGridView1;
+        private DataGridView datagriddisplay;
         private TextBox picpathTxtbox1;
         private TextBox picpathTxtbox2;
         private TextBox picpathTxtbox3;
